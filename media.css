@@ -1,3 +1,11 @@
+@media (min-width: 1331px){ 
+    .social .social2 .social_box .twitter{
+        width: 47%;
+    }
+    .social .social2 .social_box .facebook{
+        width: 31%;
+    }
+}
 @media(max-width: 1330px) {
     header nav{
         width: 80%;
@@ -210,3 +218,4 @@
         height: 180px;
     }
 }
+

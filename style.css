@@ -280,6 +280,7 @@ header .red_box{
     padding: 5px;
     left: 0%;
     top: 29%;
+    cursor: pointer;
 }
 
 .menu .right_arrow {
@@ -288,10 +289,11 @@ header .red_box{
 }
 .menu h4{
     position: absolute;
-    top: -20px;
+    top: -17px;
     left: 45%;
     font-size: 13px;
     font-weight: 600;
+    color: #fff;
     background: #ffc41e;
     padding: 5px 25px;
     border-radius: 20px;
@@ -300,3 +302,10 @@ header .red_box{
     transition: all .3s ease-in-out;
     z-index: 99999999;
 }
+
+.menu h4:hover{
+    background: #f53728;
+    box-shadow: none;
+}
+
+/* cards box start */

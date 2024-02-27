@@ -72,3 +72,11 @@ const dataload = () =>{
 setInterval(dataload, 12000);
 
 dataload()
+
+const menu_icon = document.getElementById('menu_icon');
+const nav_ul_list = document.getElementById('nav_ul_list');
+
+menu_icon.addEventListener('click', () => {
+    menu_icon.classList.toggle('humburger');
+    nav_ul_list.classList.toggle('menu_ul_list_js');
+})

@@ -48,6 +48,7 @@ header nav ul {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    transition: all .6s ease-in-out;
   }
 
 header nav ul li {

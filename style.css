@@ -347,7 +347,7 @@ header .red_box{
 .card_bx .cards_bx1{
     width: 65%;
     height: 75%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -447,4 +447,42 @@ header .red_box{
     width: 20px;
     height: 8px;
     background: #fdd4d8;
+}
+
+/* card3 change start */
+
+
+.card_bx .cards_bx1 .card3 .content h2{
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 55px;
+}
+
+.card_bx .cards_bx1 .card3 .content .dots h2:nth-child(2){
+    width: 15px;
+    height: 6px;
+    background: #ffecb2;
+}
+.card_bx .cards_bx1 .card3 .content .dots h2:nth-child(1){
+    width: 20px;
+    height: 8px;
+    background: #ffc100;
+}
+.card_bx .cards_bx1 .card_b .content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card_bx .cards_bx1 .card_b .content a{
+    text-decoration: none;
+    background: #f42c32;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+}
+.card_bx .cards_bx1 .card_b .content a:hover{
+    background: #fb808b;
 }

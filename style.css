@@ -604,7 +604,7 @@ header .red_box{
     position: relative;
     width: 80%;
     height: 100%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin: auto;
     display: flex;
 }
@@ -612,7 +612,7 @@ header .red_box{
     position: relative;
     width: 50%;
     height: 70%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -672,7 +672,7 @@ header .red_box{
 }
 .social .social2 .social_box .facebook{
     position: relative;
-    /* width: 160px;  */ width: 170px;
+    /* width: 160px;  */ width: 180px;
     height: 170px;
     background: #fff;
     border-radius: 20px 10px 10px 10px;
@@ -690,4 +690,90 @@ header .red_box{
 .social .social2 .social_box .facebook .insta{
     background: #ee5353;
     box-shadow: 0px 8px 8px #fccccc, 8px 0px 8px #fccccc;
+}
+.social .social2 .social_box .facebook h3{
+    font-size: 14px;
+    padding: 8px 0px 10px 50px;
+}
+.social .social2 .social_box .facebook p{
+    font-size: 11px;
+    padding: 10px 10px 10px 25px;
+    color: #585858;
+}
+.social .social2 .social_box .facebook p span{
+    color: #50bffb;
+}
+.social .social2 .social_box .facebook .img_box_insta{
+    width: 120px;
+    height: 110px;
+    border-radius: 0;
+    background: none;
+    padding: 0;
+    box-shadow: unset;
+    margin: 50px 10px 0px 22px;
+}
+.social .social2 .social_box .facebook .chicken_box{
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    bottom: 10px;
+    left: 22px;
+    background: rgb(185, 185, 185, 0.1);
+    backdrop-filter: blur(5px);
+}
+.social .social2 .social_box .facebook h6{
+    color: #fff;
+    text-align: center;
+    padding: 4px 0px;
+    line-height: 12px;
+}
+.social .social2 .social_box .facebook h6 span{
+    color: #ffb536;
+}
+.social .social2 .social_box .social_dots{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social .social2 .social_box .social_dots h2{
+    width: 15px;
+    height: 6px;
+    border-radius: 10px;
+    background: #ffe18e;
+    margin-right: 5px;
+}
+.social .social2 .social_box .social_dots h2:nth-child(1){
+    width: 20px;
+    height: 10px;
+    background: #ffd24a;
+}
+
+.social .social2 .social_video_box .video{
+    position: relative;
+    width: 450px;
+    height: 265px;
+    border: 8px solid #fff;
+    margin-left: 10px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social .social2 .social_video_box .video .screen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.social .social2 .social_video_box .video .play{
+    position: absolute;
+    cursor: pointer;
+}
+.social .social2 .social_video_box .video .pause{
+    position: absolute;
+    display: none;
+    cursor: pointer;
 }

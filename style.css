@@ -28,7 +28,12 @@ header nav {
   align-items: center;
   justify-content: space-between;
 }
-
+header .menu_icon{
+    color: #fff;
+    font-size: 35px;
+    transition: all .3s ease-in-out;
+    display: none;
+}
 header nav .logo {
   width: 110px;
   height: 40px;
@@ -673,7 +678,7 @@ header .red_box{
 }
 .social .social2 .social_box .facebook{
     position: relative;
-    /* width: 160px;  */ width: 180px;
+    width: 160px;  /*  width: 180px; */
     height: 170px;
     background: #fff;
     border-radius: 20px 10px 10px 10px;

@@ -32,3 +32,17 @@ videos.addEventListener('ended', () =>{
     screens.style.display = 'flex';
     pauses.style.display = 'none';
 });
+
+
+
+const dataload = () =>{
+    const sec_title = document.getElementById('sec_title');
+    const h6_dot = document.getElementsByTagName('h6');
+
+    setTimeout(() => {
+        sec_title.innerHTML = "BARGAIN <br /> BUCKET MENU <br /> CAMPAIGN";
+    }, 0000);
+}
+
+
+dataload()

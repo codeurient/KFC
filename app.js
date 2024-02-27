@@ -41,8 +41,34 @@ const dataload = () =>{
 
     setTimeout(() => {
         sec_title.innerHTML = "BARGAIN <br /> BUCKET MENU <br /> CAMPAIGN";
+        h6_dot[1].classList.add('head_dots_main');
+        h6_dot[2].classList.remove('head_dots_main');
+        h6_dot[3].classList.remove('head_dots_main');
+        h6_dot[4].classList.remove('head_dots_main');
     }, 0000);
+    setTimeout(() => {
+        sec_title.innerHTML = "BARGAIN <br /> FRIES MENU <br /> CAMPAIGN";
+        h6_dot[1].classList.remove('head_dots_main');
+        h6_dot[2].classList.add('head_dots_main');
+        h6_dot[3].classList.remove('head_dots_main');
+        h6_dot[4].classList.remove('head_dots_main');
+    }, 3000);
+    setTimeout(() => {
+        sec_title.innerHTML = "BARGAIN <br /> BURGEAR MENU <br /> CAMPAIGN";
+        h6_dot[1].classList.remove('head_dots_main');
+        h6_dot[2].classList.remove('head_dots_main');
+        h6_dot[3].classList.add('head_dots_main');
+        h6_dot[4].classList.remove('head_dots_main');
+    }, 6000);
+    setTimeout(() => {
+        sec_title.innerHTML = "BARGAIN <br /> CHICKEN MENU <br /> CAMPAIGN";
+        h6_dot[1].classList.remove('head_dots_main');
+        h6_dot[2].classList.remove('head_dots_main');
+        h6_dot[3].classList.remove('head_dots_main');
+        h6_dot[4].classList.add('head_dots_main');
+    }, 9000);
 }
 
+setInterval(dataload, 12000);
 
 dataload()
